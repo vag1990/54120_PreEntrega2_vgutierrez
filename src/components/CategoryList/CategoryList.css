@@ -1,0 +1,28 @@
+.category--list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 15px;
+    padding-right: 20px;
+}
+
+.category--list li{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.category--list li:hover{
+    border: black 1px solid;
+}
+
+.category--list li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: "Roboto";
+
+}
+

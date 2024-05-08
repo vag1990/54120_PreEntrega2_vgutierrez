@@ -1,0 +1,13 @@
+.estiloFooter {
+    border-top: 1px black solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: "Roboto";
+
+
+}

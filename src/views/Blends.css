@@ -1,0 +1,11 @@
+.blendsContainer {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.imgBlend {
+    width: 200px;
+    height: 200px;
+}
