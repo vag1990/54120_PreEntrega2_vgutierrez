@@ -24,11 +24,12 @@
 }
 
 .item--title {
-  color: tomato;
+  color: black;
   font-size: 20px;
   min-height: 50px;
   max-height: 50px;
   overflow: auto;
+  font-family: "Roboto";
 }
 
 .item--description {
@@ -39,10 +40,11 @@
 }
 
 .item--price {
-  color: #5b953c;
-  text-align: center;
+  color: black;
+  text-align: end;
   font-weight: bold;
   font-size: 20px;
+  font-family: "Roboto";
 }
 
 .item--counter__container {
@@ -60,9 +62,10 @@
 
 .item--cart__button {
   padding: 10px 15px;
-  background-color: tomato;
+  background-color: rgb(67, 148, 94);
   border-radius: 5px;
   color: white;
   border: none;
   cursor: pointer;
+  font-family: "Roboto";
 }

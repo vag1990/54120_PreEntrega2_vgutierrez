@@ -5,10 +5,13 @@ function ItemListContainer({ saludo }) {
   const { isLoading, products } = useProducts();
 
   if (isLoading) return <div>Buscando los productos...</div>;
+  
+
+  
 
   return (
     <div>
-      {/* <h1>{saludo}</h1> */}
+      
       <ItemList products={products} />
     </div>
   );

@@ -9,7 +9,7 @@ import Blends from "./views/Blends";
 import ItemList from "./components/ItemList/ItemList";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import Item from "./components/ItemList/Item";
-
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 
 
 function App() {
@@ -20,13 +20,12 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/inicio" element={<Home />} />
           <Route path="/productos" element={<ItemListContainer />} />
-          
-          
+          <Route path="/productos/:id" element={<ItemDetailContainer />} />
           <Route path="/blends" element={<Blends />} />
           <Route path="/contacto" element={<h1>contactanos!</h1>} />
           
-
-      
+        
+          
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>

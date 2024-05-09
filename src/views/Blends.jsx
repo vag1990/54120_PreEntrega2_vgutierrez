@@ -24,31 +24,31 @@ export default function Blends() {
 
       <div >
         <img className="imgBlend" src="./A1.jpg" alt="" />
-        <p>A1</p>
+        <p className="tituloBlend">A1</p>
       </div>
       
       <div>
         <img className="imgBlend" src="./A2.jpg" alt="" />
-        <p>A2</p>
+        <p className="tituloBlend">A2</p>
       </div>
       
       <div >
         <img className="imgBlend" src="./B1.jpg" alt="" />
-        <p>B1</p>
+        <p className="tituloBlend">B1</p>
       </div>
       
       <div >
         <img className="imgBlend" src="./B2.jpg" alt="" />
-        <p>B2</p>
+        <p className="tituloBlend">B2</p>
       </div>
       
       <div >
         <img className="imgBlend" src="./N1.jpg" alt="" />
-        <p>N1</p>
+        <p className="tituloBlend">N1</p>
       </div>
       <div >
         <img className="imgBlend" src="./N2.jpg" alt="" />
-        <p>N2</p>
+        <p className="tituloBlend">N2</p>
       </div>
       
 
