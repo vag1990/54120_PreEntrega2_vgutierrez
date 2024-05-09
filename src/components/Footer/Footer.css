@@ -1,6 +1,7 @@
 .estiloFooter {
     border-top: 1px black solid;
-    padding: 10px;
+    margin-top: 100px;
+    padding: 1px;
     display: flex;
     flex-direction: column;
     text-decoration: none;
@@ -8,6 +9,15 @@
     font-weight: bold;
     font-size: 1rem;
     font-family: "Roboto";
+   
 
 
+}
+
+.parrafoFooter {
+    padding: 1px;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: "Roboto";
+  
 }

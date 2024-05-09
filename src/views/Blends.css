@@ -1,6 +1,8 @@
-.blendsContainer {
-    border: 1px solid black;
+.blendContainer {
+   
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     
 }
@@ -8,4 +10,9 @@
 .imgBlend {
     width: 200px;
     height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 }
