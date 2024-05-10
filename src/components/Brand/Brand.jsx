@@ -5,7 +5,8 @@ function Brand() {
         style={{
           color: "black",
           fontSize: "60px",
-          fontFamily: "Roboto"
+          fontFamily: "Roboto",
+          marginBottom: "20px"
         }}
       >
         crash&barrett

@@ -24,8 +24,6 @@ function App() {
           <Route path="/blends" element={<Blends />} />
           <Route path="/contacto" element={<h1>contactanos!</h1>} />
           
-        
-          
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
